@@ -1,0 +1,33 @@
+
+
+.cla {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: grid;
+    justify-content: left;
+    width: 800px;
+    background-color: #edf2fb;  
+}
+.cla table{
+    width: 780px;
+    margin-left: 20px;
+    
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #caf0f8;
+}
+
+th, td{
+    height: 70px;
+    font-weight: 450;
+    border:none;
+}
+th {
+    text-align: center;
+    width: 10%;
+    height: 20px;
+    background-color: #00b4d8;
+    color: white;
+}

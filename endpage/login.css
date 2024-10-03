@@ -1,0 +1,86 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #edf2fb;
+}
+
+.warning {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: red;
+}
+
+.login {
+  justify-content: center;
+  width: 420px;
+  height: 400px;
+  border-radius:10px;
+  margin: 0px auto 15px auto;
+  padding-top: 20px;
+  background: white;
+}
+
+.input-form{
+  font-size: 16px;
+  line-height: 2.0;
+  margin-left: 20px;
+}
+
+.input-form .in {
+  color: #929292;
+  opacity: 0.7;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: solid #0077b6;
+  cursor: text;
+  display: block;
+  padding: 8px 0px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 10px;
+  background-color: transparent
+}
+
+.input-form .in:focus {
+  outline: none /*消除選取時的外框*/
+}
+
+label {
+  color: #03045e;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+
+
+.but {
+  background: #caf0f8;
+  color: #0077b6;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  vertical-align: middle;
+  cursor:pointer;
+}
+
+.but:hover {
+  background: #0077b6;
+  color: #ffffff;
+}
+
+.b2 {
+  background: #0077b6;
+  color: #ffffff;
+  padding: 10px 20px;
+  width:180px;
+  border: none;
+  border-radius: 8px;
+  text-align: middle;
+  letter-spacing:0.1em;
+  justify-content: center;
+  cursor:pointer;
+}

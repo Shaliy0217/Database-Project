@@ -1,0 +1,43 @@
+.but {
+    background: #0077b6;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.but:focus {
+    background: #90e0ef;
+    color: #03045e;
+}
+
+.b2 {
+    background: #caf0f8;
+    color: #0077b6;
+    margin-left: 5px;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 8px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.b2:hover {
+    background: #caf0f8;
+    color: #0077b6;
+}
+
+form {
+    padding-left:15px ;
+    width:900px;
+    color:#343a40;
+}
+
+input[type="text" i],select{
+    padding: 3px 4px;
+    margin-right: 5px;
+    width:200px;
+}
